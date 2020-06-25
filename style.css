@@ -5,17 +5,14 @@
 		}
 		body{
 			font-family: 'Piedra', cursive;
-			display: flex;
-			justify-content: center;
-			align-items: center;
 			min-height: 100vh;
 			background: linear-gradient(to bottom, #ffd89b  0%, #19547b 100%);
-
 			
 		}
 		.inputBox input{
+
 			position: relative;
-			width: 100%;
+			width: 300px;
 			height: 60px;
 			border:`10px;
 			margin:15px 0 20px;
@@ -28,6 +25,9 @@
 			border-radius: 8px;
 			background: #f0eeeb;
 			
+		}
+		.inputBox{
+			text-align: center;
 		}
 		.inputBox input::placeholder{
 			letter-spacing: 0px;
@@ -45,4 +45,8 @@
 		}
 		.inputBox #btn:active{
 			background: #9c27b0;
+		}
+		h1{
+			text-align: center;
+			margin-top: 220px;
 		}
