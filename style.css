@@ -9,7 +9,7 @@
 			justify-content: center;
 			align-items: center;
 			min-height: 100vh;
-			background: #d9d1bd;
+			background: linear-gradient(to bottom, #ffd89b  0%, #19547b 100%);
 
 			
 		}
